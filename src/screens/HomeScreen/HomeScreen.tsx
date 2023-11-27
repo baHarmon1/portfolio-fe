@@ -1,8 +1,8 @@
-import "./HomePage.scss"
+import "./HomeScreen.scss"
 
 interface Props {}
 
-function HomePage(props: Props) {
+function HomeScreen(props: Props) {
     return ( 
         <div>
             Home Page
@@ -10,4 +10,4 @@ function HomePage(props: Props) {
      );
 }
 
-export default HomePage;
+export default HomeScreen;
