@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { Outlet } from "react-router"
 import Navbar from './components/Navbar/Navbar.tsx';
 
