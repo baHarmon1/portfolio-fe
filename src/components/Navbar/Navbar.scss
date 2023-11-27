@@ -1,9 +1,17 @@
 .nav-bar {
-    background: #18181818;
-    width: 60px;
-    height: 100%;
-    position: absolute;
+    background: #181818;
+    width: 90%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     top: 0;
-    z-index: 3;
-    min-height: 500px;
+    
+    .nav-item {
+        display: block;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
 }
