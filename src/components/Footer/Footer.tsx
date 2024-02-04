@@ -11,16 +11,15 @@ interface FooterProps {
 const Footer: FunctionComponent<FooterProps> = () => {
     return ( 
         <div className="footer-container">
-            <div className="icon">
+            <a className="icon" href="https://github.com/baHarmon1" target="_blank">
                 <img src={github} alt="github logo" />
-            </div>
-            <div className="icon">
-                <img src={linkedin} alt="github logo" />
-            </div>
-            <div className="icon">
-                <img src={resume} alt="github logo" />
-                {/* Open a new page and display the resume */}
-            </div>
+            </a>
+            <a className="icon" href="https://www.linkedin.com/in/brycen-harmon?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B62YJfCs1S7CjpBGNWD0x4A%3D%3D" target="_blank">
+                <img src={linkedin} alt="Linked In logo" />
+            </a>
+            <a className="icon" href="https://docs.google.com/document/d/1W-HFMXpWcwKQDEqzBt4JLEyhR3NAWx-IFsOxnwYy34c/edit?usp=sharing"target="_blank" >
+                <img src={resume} alt="resume" />
+            </a>
         </div>
      );
 }
