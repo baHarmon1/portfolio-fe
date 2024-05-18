@@ -28,13 +28,13 @@ const Skills: FunctionComponent<SkillsProps> = () => {
                 </div>
                 <div className="row">
                     <div className="image-container">
-                    <img src={react} alt="js" className="image-larger" />
+                    <img src={react} alt="react" className="image-larger" />
                     </div>
                     <div className="image-container">
-                    <img src={vue} alt="js" className="image-larger image-vue" />
+                    <img src={vue} alt="vue" className="image-larger image-vue" />
                     </div>
                     <div className="image-container">
-                    <img src={node} alt="js" className="image-larger" />
+                    <img src={node} alt="node" className="image-larger" />
                     </div>
                 </div>
             </div>
