@@ -1,4 +1,14 @@
 @import 'variables';
+// error page:
+body {
+    color: $text-color;
+    width: 90%;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
 // navbar:
 .nav-bar {
     background: $primary-color;

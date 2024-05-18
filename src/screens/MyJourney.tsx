@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import "./MyJourney.scss"
+import "../scss/styles.scss"
 
 interface MyJourneyProps {
     

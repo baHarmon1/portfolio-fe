@@ -1,4 +1,4 @@
-import "./WorkWithMe.scss"
+import "../scss/styles.scss"
 
 function WorkWithMe() {
     return ( 

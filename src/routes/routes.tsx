@@ -1,8 +1,8 @@
 import {createBrowserRouter} from 'react-router-dom';
-import HomeScreen from '../screens/HomeScreen/HomeScreen.tsx';
-import ErrorPage from '../screens/ErrorPage/ErrorPage.tsx';
-import WorkWithMe from '../screens/WorkWithMe/WorkWithMe.tsx';
-import MyJourney from '../screens/MyJourney/MyJourney.tsx';
+import HomeScreen from '../screens/HomeScreen.tsx';
+import ErrorPage from '../screens/ErrorPage.tsx';
+import WorkWithMe from '../screens/WorkWithMe.tsx';
+import MyJourney from '../screens/MyJourney.tsx';
 import App from '../App.tsx';
 
 

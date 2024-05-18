@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.scss';
+import "./scss/styles.scss"
 import Navbar from './components/Navbar.tsx';
-import HomeScreen from './screens/HomeScreen/HomeScreen.tsx';
-import WorkWithMe from './screens/WorkWithMe/WorkWithMe.tsx';
-import MyJourney from './screens/MyJourney/MyJourney.tsx';
+import HomeScreen from './screens/HomeScreen.tsx';
+import WorkWithMe from './screens/WorkWithMe.tsx';
+import MyJourney from './screens/MyJourney.tsx';
 import Footer from './components/Footer.tsx';
 
 
