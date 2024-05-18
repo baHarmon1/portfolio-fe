@@ -8,7 +8,6 @@ interface MyJourneyProps {
 const MyJourney: FunctionComponent<MyJourneyProps> = () => {
     return ( 
         <div>
-            This is my journey
         </div>
      );
 }

@@ -10,7 +10,6 @@ interface Props {}
 function HomeScreen(props: Props) {
     return ( 
         <div className="homepage-body">
-            This is the Home Page
             <Header/>
             <Skills/>
             <Projects/>
