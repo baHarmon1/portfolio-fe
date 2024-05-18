@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import "./References.scss"
+import "../scss/styles.scss"
 
 interface ReferencesProps {
     

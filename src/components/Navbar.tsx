@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import "./Navbar.scss"
+import "../scss/styles.scss"
 import { Link } from "react-router-dom";
 
 interface NavbarProps {

@@ -1,8 +1,8 @@
 import { FunctionComponent } from "react";
-import "./Footer.scss"
-import github from "../../assets/images/github-logo.png"
-import linkedin from "../../assets/images/LinkedIn.png"
-import resume from "../../assets/images/Resume.png"
+import "../scss/styles.scss"
+import github from "../assets/images/github-logo.png"
+import linkedin from "../assets/images/LinkedIn.png"
+import resume from "../assets/images/Resume.png"
 
 interface FooterProps {
     

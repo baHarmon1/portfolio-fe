@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import "./Skills.scss"
-import css  from "../../assets/images/CSS.png"
-import html  from "../../assets/images/HTML.png"
-import js  from "../../assets/images/JS.png"
-import react  from "../../assets/images/React (2).png"
-import vue  from "../../assets/images/Vue.png"
-import node  from "../../assets/images/Node.png"
+import "../scss/styles.scss"
+import css  from "../assets/images/CSS.png"
+import html  from "../assets/images/HTML.png"
+import js  from "../assets/images/JS.png"
+import react  from "../assets/images/React (2).png"
+import vue  from "../assets/images/Vue.png"
+import node  from "../assets/images/Node.png"
 
 interface SkillsProps {
     
