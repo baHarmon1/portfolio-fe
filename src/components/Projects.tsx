@@ -1,5 +1,9 @@
 import { FunctionComponent } from "react";
+import { ImgMediaCard} from "./Project.tsx"
+import { DemoCarousel } from "./Carousel.tsx"
 import "../scss/styles.scss"
+
+
 
 interface ProjectsProps {
     
@@ -8,8 +12,8 @@ interface ProjectsProps {
 const Projects: FunctionComponent<ProjectsProps> = () => {
     return ( 
         <div className="projects-container">
-            <div className="pseudo-mobile-phone">
-                <p>This is where the project will go</p>
+            <div className="carousel-container">
+                <DemoCarousel />
             </div>
         </div>
      );
